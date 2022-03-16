@@ -1,7 +1,5 @@
 package com.eroshov.spring.springboot.github.githubclient.githubclient.service;
-
-
-
+//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
 import com.eroshov.spring.springboot.github.githubclient.githubclient.repository.GithubRepository;
 import org.eclipse.egit.github.core.Repository;
 import org.eclipse.egit.github.core.event.DeletePayload;
@@ -21,7 +19,7 @@ public class GithubService {
     private static final String API_VERSION_SPEC = "application/vnd.github.v3+json";
     private static final String JSON_CONTENT_TYPE = "application/json";
 
-    private String accessToken;    // = "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";
+    private String accessToken;
     private GithubRepository repository;
 
     public GithubService() {
